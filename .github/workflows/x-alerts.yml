@@ -2,7 +2,7 @@ name: X to Discord alerts
 
 on:
   schedule:
-    - cron: "35 * * * *"
+    - cron: "47/30 * * * *"
   workflow_dispatch:
 
 permissions:
