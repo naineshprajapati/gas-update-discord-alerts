@@ -92,7 +92,7 @@ def main():
         tweet_text = get_tweet_content(entry)
 
         message = (
-            f"<@&{ROLE_ID}> **New X post!**\n\n"
+            f"<@&{ROLE_ID}> **New gas update!**\n\n"
             f"{tweet_text}\n\n"
             f"{link}"
         )
