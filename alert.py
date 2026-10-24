@@ -79,9 +79,9 @@ def main():
 
     # Avoid alerting on potentially old posts if the previous
     # post is no longer present in the feed.
-    if not any(post_id(e) == last_id for e in entries):
-        print("Previous post not found in feed; skipping alerts.")
-        return
+    # if not any(post_id(e) == last_id for e in entries):
+    #    print("Previous post not found in feed; skipping alerts.")
+    #    return
 
     # Process oldest to newest.
     for entry in reversed(new_entries):
